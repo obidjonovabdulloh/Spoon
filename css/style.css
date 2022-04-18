@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home{
+    background-image: url(/img/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_subtext{
+    word-spacing: 30px;
+    margin-top: 30px;
+}
+.sub_text{
+    color: white;
+    transition: .65s;
+}
+.sub_text:hover{
+    color: #5AB963;
+}
+.sub_text1{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.sub_text1:hover {
+    background-color: #5AB963;
+    border: 1px solid #5AB963;
+    border-radius: 5px;
+
+}
+.nav_text{
+    color: white;
+    font-size: 30px;
+}
+.nav_title{
+    margin-top: 30px;
+}
+.section1 .container{
+    text-align: center;
+    margin-top: 120px;
+
+}
+.section_text{
+    font-size: 70px;
+    color: white;
+}
+.section_subtext{
+    color: white;
+    padding: 30px 0px;
+}
+.section_link{
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 1s;
+    padding: 10px 20px;
+}
+.section_link:hover{
+    background-color: #5AB963;
+    border: 1px solid #5AB963;
+}
+.lol .container{
+    margin-top: 80px;
+}
+.long_text{
+    width: 35%;
+    font-size: 20px;
+    color: gray;
+    font-weight: 200;
+    
+}
+.span{
+    color: black;
+    font-weight: bold;
+}
+.photo{
+    width: 50px;
+    margin-top: 50px;
+
+}
+.popo .container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.link1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.step_div{
+    border: 1px solid rgba(141, 141, 141, 0.678);
+    width: 350px;
+    height: 290px;
+    padding: 0 40px;
+    margin-bottom: 100px;
+    transition: .65s;
+}
+.step_div:hover{
+    transform: scale(1.1);
+}
+.step_sect .container{
+    text-align: center;
+    margin-top: 130px;
+    width: 55%;
+
+}
+.long_text1{
+    font-size: 30px;
+    color: gray;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+.small_link{
+    color: rgb(48, 255, 29);
+    font-size: 20px;
+}
+.qwert .container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.komp{
+    width: 30%;
+}
+.pimg{
+    width: 450px;
+}
+.qaz{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 200;
+}
+.qasw{
+    color: gray;
+    font-weight: 200;
+    font-size: 15px;
+    width: 90%;
+    line-height: 25px;
+}
+.qwert1 .container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+.plpl .container{
+    text-align: center;
+    margin-top: 100px;
+    line-height: 40px;
+    margin-bottom: 70px;
+}
+.wert{
+    color: #5AB963;
+}
+.man .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.zxcv{
+    width: 55%;
+    color: gray;
+    font-weight: 200;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mk{
+    color: #5AB963;
+    font-size: 20px;
+}
+.get{
+    color: black;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.get:hover{
+    background-color: #5AB963;
+    border: 1px solid #5AB963;
+    color: white;
+    border-radius: 5px;
+}
+.njnj{
+    background-color: #0A0E1A;
+    height: 400px;
+}
+.imgpg{
+    width: 150px;
+}
+.njnj .container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.fgfg{
+    padding-top: 170px;
+}
+.inf{
+    line-height: 40px;
+    padding-top: 150px;
+
+}
+.textlik{
+    color: white;
+}
+.wsws{
+    color: #6666;
+    margin-top: 10px;
+}
+.phit{
+    word-spacing: 15px;
+    margin-top: 10px;
+    padding-top: 150px;
+}
+.phim{
+    width: 10px;
+}
+.phim1{
+    width: 17px;
+}
+.phim2{
+    width: 16px;
+}
